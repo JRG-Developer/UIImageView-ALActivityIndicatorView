@@ -92,7 +92,7 @@
 
 #pragma mark - Multithreading
 
-- (void)AL_performBlockOnMainThread:(void(^)())block {
+- (void)AL_performBlockOnMainThread:(void(^)(void))block {
   
   if ([NSThread isMainThread]) {
     block();

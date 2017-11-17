@@ -10,7 +10,8 @@
 		42A6ECD31B4026A0006540E8 /* libUIImageView+ALActivityIndicatorView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A6ECC71B4026A0006540E8 /* libUIImageView+ALActivityIndicatorView.a */; };
 		42A6ECE31B4026B1006540E8 /* UIImageView+ALActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A6ECE21B4026B1006540E8 /* UIImageView+ALActivityIndicatorView.m */; };
 		42A6ECE51B402722006540E8 /* UIImageView+ALActivityIndicatorViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A6ECE41B402722006540E8 /* UIImageView+ALActivityIndicatorViewTests.m */; };
-		45A3A3710BEAF0EC20509ED2 /* libPods-UIImageView+ALActivityIndicatorViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DE40A6B366C7CEA49674EB /* libPods-UIImageView+ALActivityIndicatorViewTests.a */; };
+		8452E2049EC3AF9AE1B2D246 /* libPods-UIImageView+ALActivityIndicatorView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1063212568A3D18FAF96241C /* libPods-UIImageView+ALActivityIndicatorView.a */; };
+		F0731A6690FC98C1E8BBF336 /* libPods-UIImageView+ALActivityIndicatorViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D510607FB18CFE0177C2FA97 /* libPods-UIImageView+ALActivityIndicatorViewTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,15 +37,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		19DE40A6B366C7CEA49674EB /* libPods-UIImageView+ALActivityIndicatorViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIImageView+ALActivityIndicatorViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AA3B822685F0AC3660CF0BA /* Pods-UIImageView+ALActivityIndicatorViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIImageView+ALActivityIndicatorViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIImageView+ALActivityIndicatorViewTests/Pods-UIImageView+ALActivityIndicatorViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		1063212568A3D18FAF96241C /* libPods-UIImageView+ALActivityIndicatorView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIImageView+ALActivityIndicatorView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A6ECC71B4026A0006540E8 /* libUIImageView+ALActivityIndicatorView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUIImageView+ALActivityIndicatorView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A6ECD21B4026A0006540E8 /* UIImageView+ALActivityIndicatorViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIImageView+ALActivityIndicatorViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A6ECD81B4026A0006540E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42A6ECE11B4026B1006540E8 /* UIImageView+ALActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ALActivityIndicatorView.h"; sourceTree = "<group>"; };
 		42A6ECE21B4026B1006540E8 /* UIImageView+ALActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ALActivityIndicatorView.m"; sourceTree = "<group>"; };
 		42A6ECE41B402722006540E8 /* UIImageView+ALActivityIndicatorViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ALActivityIndicatorViewTests.m"; sourceTree = "<group>"; };
-		CBDD51F425DB001CF267C4A8 /* Pods-UIImageView+ALActivityIndicatorViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIImageView+ALActivityIndicatorViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIImageView+ALActivityIndicatorViewTests/Pods-UIImageView+ALActivityIndicatorViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		583615D989C9EE93C551E2DB /* Pods-UIImageView+ALActivityIndicatorViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIImageView+ALActivityIndicatorViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIImageView+ALActivityIndicatorViewTests/Pods-UIImageView+ALActivityIndicatorViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		606F7EE6516FE1620D5ABD98 /* Pods-UIImageView+ALActivityIndicatorViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIImageView+ALActivityIndicatorViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIImageView+ALActivityIndicatorViewTests/Pods-UIImageView+ALActivityIndicatorViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7254E3BF3265AC3B774FD766 /* Pods-UIImageView+ALActivityIndicatorView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIImageView+ALActivityIndicatorView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIImageView+ALActivityIndicatorView/Pods-UIImageView+ALActivityIndicatorView.debug.xcconfig"; sourceTree = "<group>"; };
+		D510607FB18CFE0177C2FA97 /* libPods-UIImageView+ALActivityIndicatorViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIImageView+ALActivityIndicatorViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BC93D88584F0F94ED7648C /* Pods-UIImageView+ALActivityIndicatorView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIImageView+ALActivityIndicatorView.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIImageView+ALActivityIndicatorView/Pods-UIImageView+ALActivityIndicatorView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8452E2049EC3AF9AE1B2D246 /* libPods-UIImageView+ALActivityIndicatorView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,29 +65,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				42A6ECD31B4026A0006540E8 /* libUIImageView+ALActivityIndicatorView.a in Frameworks */,
-				45A3A3710BEAF0EC20509ED2 /* libPods-UIImageView+ALActivityIndicatorViewTests.a in Frameworks */,
+				F0731A6690FC98C1E8BBF336 /* libPods-UIImageView+ALActivityIndicatorViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4018687AE15B283C9E6FF63A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				19DE40A6B366C7CEA49674EB /* libPods-UIImageView+ALActivityIndicatorViewTests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		42A6ECBE1B4026A0006540E8 = {
 			isa = PBXGroup;
 			children = (
 				42A6ECC91B4026A0006540E8 /* UIImageView+ALActivityIndicatorView */,
 				42A6ECD61B4026A0006540E8 /* UIImageView+ALActivityIndicatorViewTests */,
 				42A6ECC81B4026A0006540E8 /* Products */,
-				468C9DD0C6CD66E1EEDA69EB /* Pods */,
-				4018687AE15B283C9E6FF63A /* Frameworks */,
+				98D1AF0357A38140C4CF00E4 /* Pods */,
+				80E70C1985B7BD136FCA7AE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,11 +118,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		468C9DD0C6CD66E1EEDA69EB /* Pods */ = {
+		80E70C1985B7BD136FCA7AE0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CBDD51F425DB001CF267C4A8 /* Pods-UIImageView+ALActivityIndicatorViewTests.debug.xcconfig */,
-				2AA3B822685F0AC3660CF0BA /* Pods-UIImageView+ALActivityIndicatorViewTests.release.xcconfig */,
+				1063212568A3D18FAF96241C /* libPods-UIImageView+ALActivityIndicatorView.a */,
+				D510607FB18CFE0177C2FA97 /* libPods-UIImageView+ALActivityIndicatorViewTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98D1AF0357A38140C4CF00E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7254E3BF3265AC3B774FD766 /* Pods-UIImageView+ALActivityIndicatorView.debug.xcconfig */,
+				E1BC93D88584F0F94ED7648C /* Pods-UIImageView+ALActivityIndicatorView.release.xcconfig */,
+				606F7EE6516FE1620D5ABD98 /* Pods-UIImageView+ALActivityIndicatorViewTests.debug.xcconfig */,
+				583615D989C9EE93C551E2DB /* Pods-UIImageView+ALActivityIndicatorViewTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -137,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42A6ECDB1B4026A0006540E8 /* Build configuration list for PBXNativeTarget "UIImageView+ALActivityIndicatorView" */;
 			buildPhases = (
+				DD26F908AD636375CD52550B /* [CP] Check Pods Manifest.lock */,
 				42A6ECC31B4026A0006540E8 /* Sources */,
 				42A6ECC41B4026A0006540E8 /* Frameworks */,
 				42A6ECC51B4026A0006540E8 /* CopyFiles */,
+				AB298DE4179EBF61CF6F25B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -154,11 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42A6ECDE1B4026A0006540E8 /* Build configuration list for PBXNativeTarget "UIImageView+ALActivityIndicatorViewTests" */;
 			buildPhases = (
-				9CF29F6C62ACD0E8340FC98B /* Check Pods Manifest.lock */,
+				DAFD75EEFB6EEC77A8835196 /* [CP] Check Pods Manifest.lock */,
 				42A6ECCE1B4026A0006540E8 /* Sources */,
 				42A6ECCF1B4026A0006540E8 /* Frameworks */,
 				42A6ECD01B4026A0006540E8 /* Resources */,
-				86AB15419A1C5AA6B0427955 /* Copy Pods Resources */,
+				73B1CB799A87F2F10280518B /* [CP] Embed Pods Frameworks */,
+				C580E4ADD4285E130F580DC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,7 +187,7 @@
 		42A6ECBF1B4026A0006540E8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "JRG-Developer";
 				TargetAttributes = {
 					42A6ECC61B4026A0006540E8 = {
@@ -216,14 +227,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		86AB15419A1C5AA6B0427955 /* Copy Pods Resources */ = {
+		73B1CB799A87F2F10280518B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIImageView+ALActivityIndicatorViewTests/Pods-UIImageView+ALActivityIndicatorViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB298DE4179EBF61CF6F25B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIImageView+ALActivityIndicatorView/Pods-UIImageView+ALActivityIndicatorView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C580E4ADD4285E130F580DC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,19 +272,40 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIImageView+ALActivityIndicatorViewTests/Pods-UIImageView+ALActivityIndicatorViewTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9CF29F6C62ACD0E8340FC98B /* Check Pods Manifest.lock */ = {
+		DAFD75EEFB6EEC77A8835196 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIImageView+ALActivityIndicatorViewTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD26F908AD636375CD52550B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIImageView+ALActivityIndicatorView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -284,18 +346,27 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -326,13 +397,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -356,6 +435,7 @@
 		};
 		42A6ECDC1B4026A0006540E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7254E3BF3265AC3B774FD766 /* Pods-UIImageView+ALActivityIndicatorView.debug.xcconfig */;
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -365,6 +445,7 @@
 		};
 		42A6ECDD1B4026A0006540E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1BC93D88584F0F94ED7648C /* Pods-UIImageView+ALActivityIndicatorView.release.xcconfig */;
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -374,7 +455,7 @@
 		};
 		42A6ECDF1B4026A0006540E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBDD51F425DB001CF267C4A8 /* Pods-UIImageView+ALActivityIndicatorViewTests.debug.xcconfig */;
+			baseConfigurationReference = 606F7EE6516FE1620D5ABD98 /* Pods-UIImageView+ALActivityIndicatorViewTests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -387,13 +468,14 @@
 				);
 				INFOPLIST_FILE = "UIImageView+ALActivityIndicatorViewTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jrg-developer.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		42A6ECE01B4026A0006540E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AA3B822685F0AC3660CF0BA /* Pods-UIImageView+ALActivityIndicatorViewTests.release.xcconfig */;
+			baseConfigurationReference = 583615D989C9EE93C551E2DB /* Pods-UIImageView+ALActivityIndicatorViewTests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -402,6 +484,7 @@
 				);
 				INFOPLIST_FILE = "UIImageView+ALActivityIndicatorViewTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jrg-developer.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
